@@ -1,0 +1,23 @@
+{
+  "id": "1567756",
+  "name": "le'gou",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "669832",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e683",
+      "unicode_decimal": 59011
+    },
+    {
+      "icon_id": "11973035",
+      "name": "尖括号下",
+      "font_class": "jiankuohaoxia",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    }
+  ]
+}

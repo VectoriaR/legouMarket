@@ -1,0 +1,501 @@
+/* 首页的样式 */
+/* 顶部样式 */
+#top {
+  line-height: 28px;
+  background: #000000;
+  color: #ffffff;
+}
+#top > div {
+  text-align: right;
+}
+#top a {
+  color: #ff6600;
+}
+/* 导航栏 左边*/
+#nav {
+  height: 84px;
+}
+#nav #logo {
+  position: relative;
+  height: 112px;
+  width: 200px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  margin: -28px 0 0 0;
+  /* overflow: hidden; */
+  background: url(../images/logo.jpg) no-repeat #ff6600 center 5px;
+}
+#nav #logo > p {
+  margin: 82px 0 4px 0;
+}
+#nav #logo .icon-jiankuohaoxia {
+  margin: 2px 0 0 15px;
+}
+/* 导航商品展示 */
+#logo ul {
+  position: relative;
+  background: #f3f3f3;
+  height: 416px;
+  padding: 7px 0;
+  top:6px;
+}
+#logo ul li {
+  height: 32px;
+  /* width: 180px; */
+  text-align: left;
+  padding: 0 0 0 20px;
+}
+#logo ul li .menu {
+  line-height: 36px;
+  width: 180px;
+  background: #f3f3f3;
+  position: absolute;
+  z-index: 99;
+  border-right: 1px solid transparent;
+}
+#logo ul li:hover .menu {
+  background: #ccc;
+  border-right: none;
+}
+/* 二级导航栏的设置 */
+#logo ul li .subMenu {
+  position: absolute;
+  left: 199px;
+  color: #000000;
+  padding: 0 36px;
+  top: 0;
+  border: 1px solid orange;
+  width: 400px;
+  height: 490px;
+  display: none;
+  background: #ffffff;
+}
+#logo ul li .subMenu p {
+  line-height: 36px;
+}
+#logo ol {
+  margin: 16px 0 0 0;
+}
+#logo ol li {
+  height: 54px;
+}
+#logo ol li h3 {
+  color: #ff6600;
+  border-bottom: 2px solid #ccc;
+  line-height: 30px;
+}
+#logo ol li a {
+  line-height: 30px;
+  color: #000000;
+  margin: 0 10px 0 0;
+}
+/* 导航栏右边 */
+/* 导航栏input,购物车，我的订单 */
+#navRight > div {
+  margin: 5px 0 0 0;
+  position: relative;
+}
+#navRight input {
+  width: 440px;
+  height: 34px;
+  margin: 0 0 0 316px;
+  border: 1px solid #ff6600;
+  padding: 0 10px;
+  outline: none;
+}
+#navRight .icon-sousuo {
+  line-height: 34px;
+  width: 50px;
+  background: #ff6600;
+  position: absolute;
+  right: 237px;
+  top: 0;
+  text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 24px;
+}
+#navRight .buyAndOrder {
+  height: 34px;
+  width: 200px;
+  margin: 0 0 0 36px;
+}
+#navRight .buyAndOrder div {
+  line-height: 34px;
+  width: 50%;
+  text-align: center;
+}
+#navRight .buyAndOrder div:first-child {
+  background: #ff6600;
+  color: #ffffff;
+}
+#navRight .buyAndOrder div:first-child a {
+  color: #ffffff;
+}
+#navRight .buyAndOrder div:last-child {
+  background: #ebebeb;
+  color: #666;
+}
+#navRight ul {
+  margin: 20px 0 0 5px;
+  font-weight: bolder;
+}
+#navRight ul li {
+  float: left;
+  margin: 0 0 0 30px;
+}
+/* 侧框 */
+#ce {
+  height: 180px;
+  width: 40px;
+  text-align: center;
+  background: orangered;
+  margin:0 0 0 300px;
+  position: fixed;
+  right: 0;
+  top:50%;
+  margin:-100px 0 0 0;
+  z-index:9;
+}
+#ce a{
+  text-decoration: none;
+}
+#ce .tag {
+  height: 40px;
+  width: 40px;
+  background: #ffdb0d;
+}
+#ce .slide{
+  padding: 0 4px;
+  height: 100px;
+  font-size: 20px;
+  color: #ffffff;
+  position: relative;
+}
+#ce .slide p{
+  height: 100px;
+  width: 100px;
+  background: pink;
+  display: none;
+  /* visibility: hidden; */
+  position: absolute;
+  top: 0;
+  right:40px;
+}
+#ce .slide:hover p{
+  display: block;
+  /* transition: all 5s; */
+  transition:2s ease-out; 
+}
+/* 轮播 */
+#swiper {
+  height: 430px;
+  margin: 0 0 10px 276px;
+}
+/* 今日推荐 */
+#recommend {
+  height: 400px;
+}
+#recommend > h2 {
+  color: #ff6600;
+  line-height: 40px;
+  text-indent: 1em;
+  border-bottom: 2px solid #ff6600;
+}
+#recommend ul li {
+  height: 240px;
+  width: 182px;
+  float: left;
+  padding: 3px 7px;
+  border: 1px solid #ff6600;
+  position: relative;
+  z-index: 1;
+}
+#recommend ul li img:first-child {
+  margin: 0 0 24px 12px;
+}
+#recommend ul li .tag {
+  position: absolute;
+  left: 0;
+  top: 147px;
+}
+#recommend ul li .price {
+  font-size: 18px;
+  line-height: 30px;
+}
+/* 楼层滚动盒子通用样式 */
+.floorScroll {
+  position: relative;
+  width: 1200px;
+  height: 600px;
+  margin: 40px 0 0 76px;
+}
+.floorScroll > h2 {
+  color: #000000;
+  line-height: 40px;
+  text-indent: 1em;
+  border-bottom: 2px solid #ff6600;
+}
+.floorScroll > ul {
+  position: absolute;
+  right: 0;
+  top: 6px;
+}
+.floorScroll > ul li {
+  line-height: 34px;
+  width: 96px;
+  float: left;
+  text-align: center;
+}
+.floorScroll > ul li:hover {
+  background: #ff6600;
+  color: #ffffff;
+}
+#floorLi{
+  height: 200px;
+  width: 40px;
+  background: #f2f2f2;
+  position: fixed;
+  top:0;
+  left:0;
+}
+#floorLi li{
+  height: 40px;
+  width: 40px;
+  position: relative;
+  box-sizing: border-box;
+}
+#floorLi li:first-child{
+  background: url(../images/floor.png) no-repeat 0px -40px;
+}
+#floorLi li:nth-child(2){
+  background: url(../images/floor.png) no-repeat 0px -80px;
+}
+#floorLi li:nth-child(3){
+  background: url(../images/floor.png) no-repeat 0px -120px;
+}
+#floorLi li:nth-child(4){
+  background: url(../images/floor.png) no-repeat 0px -160px;
+}
+#floorLi li:nth-child(5){
+  background: url(../images/floor.png) no-repeat 0px -200px;
+}
+#floorLi li p{
+  line-height: 40px;
+  width:40px;
+  position: absolute;
+  top:0;
+  background: #93d56f;
+  right:-40px;
+  text-align: center;
+  color: #ffffff;
+  display: none;
+}
+/* 图书，电子书 */
+#book {
+  width: 900px;
+  height: 500px;
+  margin: 40px 0 0 76px;
+}
+#book > h2 {
+  margin: 174px 0 0 0;
+}
+#book .content > div {
+  width: 240px;
+  height: 442px;
+  background: #f9f9f9;
+}
+#book .content ul {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+#book .content ul li {
+  float: left;
+  width: 80px;
+  line-height: 30px;
+  /* background: #ccc; */
+}
+/* 小轮播图 */
+#book .content ol > div {
+  height: 218px;
+  width: 328px;
+}
+#book .content ol {
+  height: 100%;
+  width: 658px;
+  /* background: pink; */
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#book .content ol li {
+  height: 198px;
+  width: 154px;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 10px 4px;
+}
+#book .content ol li p {
+  line-height: 22px;
+}
+#book del {
+  color: #ccc;
+}
+.hotBook {
+  width: 242px;
+  height: 440px;
+  border: 1px solid #ccc;
+  position: absolute;
+  right: -290px;
+  top: 40px;
+  /* background: pink; */
+  border: 2px solid #ccc;
+  padding: 0 0 0 24px;
+}
+.hotBook li:first-child {
+  height: 190px;
+  border: none;
+}
+.hotBook li:first-child h2 {
+  margin: -40px 0 0 0;
+}
+.hotBook li:first-child {
+  margin: 0 0 0 5px;
+}
+.hotBook li:first-child div p {
+  margin: 0 5px;
+  width: 120px;
+  line-height: 18px;
+  text-indent: 1rem;
+}
+.hotBook li {
+  line-height: 40px;
+}
+.hotBook li span {
+  margin: 0 16px 0 -16px;
+}
+
+.hotBook li {
+  width: 100%;
+  display: inline-block;
+  border-top: 2px solid #ccc;
+}
+/* 服装 */
+.dressSportBaby {
+  height: 100%;
+}
+/* 第一个盒子 */
+.dressSportBaby .contentTop div:first-child {
+  width: 240px;
+}
+.dressSportBaby dl dt {
+  line-height: 40px;
+  float: left;
+  width: 80px;
+  background: #f9f9f9;
+  text-align: center;
+}
+.dressSportBaby .dressSportBabySwiper {
+  height: 426px;
+}
+/* 第二个盒子 */
+.dressSportBaby .contentTop div:nth-child(2) {
+  width: 426px;
+}
+.dressSportBaby .contentTop div:nth-child(2) img {
+  width: 426px;
+}
+.dressSportBaby .contentTop div:nth-child(2) .swiper {
+  border: 1px solid #ccc;
+}
+.dressSportBaby .contentTop div:nth-child(2) .swiper img {
+  height: 340px;
+}
+.dressSportBaby .contentTop ol {
+  width: 530px;
+}
+.dressSportBaby .contentTop ol li {
+  float: left;
+  border: 1px solid #ccc;
+}
+.dressSportBaby .contentTop ol li a {
+  display: block;
+  margin: 0 0 0 5px;
+}
+.dressSportBaby .contentTop ol li img {
+  width: 174px;
+}
+.dressSportBaby .contentTop ol .three img {
+  height: 340px;
+}
+.dressSportBaby .contentTop ol .lastThree img {
+  margin: 19px 0 0 0;
+}
+.contentBottom img {
+  width: 116px;
+}
+/* 家居日用 */
+/* 第一个盒子 */
+#hoseLeft {
+  border: 1px solid #ccc;
+}
+#houseRight ul li {
+  width: 176px;
+  height: 336px;
+  float: left;
+  border: 1px solid #ccc;
+}
+#houseRight ol li {
+  width: 176px;
+  height: 160px;
+  float: left;
+  border: 1px solid #ccc;
+}
+
+/* 推广产品 */
+#others {
+  height: 660px;
+}
+#others ol li {
+  height: 260px;
+  width: 152px;
+  float: left;
+  padding: 20px 30px;
+  margin: 0 28px 0 0;
+}
+#others ol img {
+  height: 152px;
+
+  text-align: center;
+}
+#others ol li .price {
+  font-size: 22px;
+}
+.grown {
+  background: #f2f2f2;
+}
+/* 底部 */
+#footer {
+  height: 470px;
+  border-top: 2px solid #ff6600;
+  text-align: center;
+}
+#footer div {
+  height: 70px;
+  background: #f2f2f2;
+  padding: 30px 0 0 0;
+}
+#footer div img {
+  margin: 0 40px;
+}
+#footer table {
+  height: 140px;
+  margin: 30px auto;
+}
+#footer table td {
+  width: 150px;
+  line-height: 30px;
+}
+#footer p {
+  line-height: 40px;
+}
