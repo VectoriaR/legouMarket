@@ -70,6 +70,7 @@
   height: 490px;
   display: none;
   background: #ffffff;
+  z-index: 99;
 }
 #logo ul li .subMenu p {
   line-height: 36px;
@@ -257,8 +258,9 @@
   width: 40px;
   background: #f2f2f2;
   position: fixed;
-  top:0;
-  left:0;
+  top: 130px;
+  left: 37px;
+  display: none;
 }
 #floorLi li{
   height: 40px;

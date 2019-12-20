@@ -18,3 +18,20 @@ $("#demo3").slideBox({
 
     clickBarRadius: 10
   });
+/* 楼层的滚动 */
+// 1.找到滚动到图书的距离，出现楼层条
+// 获取book距离窗口的距离
+
+//获取楼层距离相对顶端下移动的距离
+$(window).scroll(function(){
+    console.log($('html,body').scrollTop()); 
+    let floorScroll=$('html,document').scrollTop();
+    floorShow=$('#book').offset().top-30+4+'px';
+    if(floorShow<=floorScroll){
+        $('floorList').show();
+    }
+})
+
+console.log($('#book').offset().top);
+// 2.点击相应的位置就滚动到相应的楼层
+
