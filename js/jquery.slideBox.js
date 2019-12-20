@@ -132,7 +132,7 @@
 		}
 		imgLoader.src = firstPic.attr('src');
 			
-	};
+	};	
 })(jQuery);
 $('#swiper').slideBox({
 

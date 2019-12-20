@@ -34,4 +34,3 @@ $(window).scroll(function(){
 
 console.log($('#book').offset().top);
 // 2.点击相应的位置就滚动到相应的楼层
-

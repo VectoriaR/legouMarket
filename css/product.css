@@ -1,0 +1,87 @@
+/* 内容标题通用样式 */
+.content{
+    margin:10px 0 0 76px;
+}
+.content>h2{
+    line-height: 50px;
+    border-bottom:3px solid #ff6600;
+}
+.content>h2 span{
+    display: inline-block;
+    height: 50px;
+    padding: 0 10px;
+}
+.content div ul {
+    height: 500px;
+}
+.content div ul li{
+     height: 230px;
+     width: 150px;
+     padding: 10px 30px;
+     /* background: #f2f2f2; */
+     float: left;
+     margin:0 15px;
+}
+/* 新书上架 */
+#newBook{
+    width: 904px;
+    position: relative;
+}
+#newBook>h2{
+    width:904px;
+}
+#newBook ul li{
+    width: 120px;
+    margin:0;
+}
+#newBook ul{
+    width: 904px;
+    box-sizing: border-box;
+    border:2px solid #ccc ;
+    border-top: none;
+}
+#newBook>ol{
+    height: 500px;
+    margin:10px 0 0 0;
+    right:-290px;
+}
+#newBook>ol li:first-child{
+    top: 50px;
+    height: 210px;
+}
+#newBook>ol li:first-child h2{
+    margin:0 0 0 -20px;
+    text-align: center;
+}
+#newBook>ol li:first-child div{
+    margin:-30px 0 0 0;
+}
+/* 独家提供 */
+#onlyProvide{
+    position: relative;
+}
+#onlyProvide>ul{
+    position: absolute;
+    right: 0;
+    top:10px;
+}
+#onlyProvide>ul li{
+    width: 100px;
+    float: left;
+    line-height:40px;
+    text-align: center;
+}
+/* 猜你喜欢 */
+#guessULike{
+    position: relative;
+}
+#guessULike>p{
+    position: absolute;
+    top: 14px;
+    right: 0;
+    color:blue;
+    text-align: center;
+    line-height: 40px;
+}
+
+

@@ -1,0 +1,258 @@
+/* 详情页的导航条 */
+#logo ul{
+    display: none;
+}
+#detail{
+    height:596px;
+    background: #f2f2f2;
+}
+#detailNav{
+    color: #666;
+    line-height: 54px;
+}
+#detailNav strong{
+font-size: 22px;
+color: #000000;
+}
+/* 详情页书本介绍 */
+#detail .detailContent{
+    height:490px;
+    background: #ffffff;
+    padding: 10px;
+}
+#detail .detailContent p,small,h3{
+    line-height: 40px;
+}
+#detail .detailContent .left{
+    width: 380px;
+}
+#detail .left .switch{
+    height:100px;
+}
+#detail .detailContent .right{
+    width: 800px;
+    /* background: ; */
+    padding: 10px 10px;
+    color: #808080;
+}
+#detail .detailContent .right h3{
+    color: #000000;
+    font-weight: bold;
+}
+#detail  .ticket{
+    background: #f5f5f5;
+    position: relative;
+    height: 132px;
+    padding: 4px 20px;
+}
+#detail .ticket>p{
+    line-height: 44px;
+    overflow: hidden;
+}
+#detail .ticket .getTags img{
+    margin: 0 0 0 0;
+}
+#detail .ticket .conmment{
+    position: absolute;
+    right: 0;
+    top:10px;
+    padding:5px;
+    width:80px;
+    border-left: 1px solid #ccc;
+}
+#detail .ticket .conmment p{
+    line-height: 20px;
+}
+#detail .typeChoice{
+    height: 30px;
+    padding:25px 0;
+}
+#detail .typeChoice p{
+    float: left;
+    color: #000000;
+    line-height: 30px;
+    text-align: center;
+    width: 100px;
+}
+#detail .typeChoice p:not(:first-child){
+    margin:0 0 0 10px;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+#detail .addCarNum{
+    padding: 20px 20px;
+    text-align: center;
+}
+#detail .addCarNum div{
+    float: left;
+    text-align: center;
+}
+#detail .addCarNum>div {
+    line-height: 40px;
+    width: 60px;
+    border: 1px solid #ccc;
+    margin:10px 24px 0 0;
+}
+#detail .addCarNum div div:first-child{
+    width: 40px;
+    text-align: center;
+}
+#detail .addCarNum div button{
+    line-height: 16px;
+    display: block;
+    width: 20px;
+    background: #ccc;
+    text-align: center;
+}
+#detail .addCarNum .addCar{
+    width: 188px;
+    line-height: 60px;
+    font-size: 24px;
+}
+/* 人气单品 */
+#hot{
+    height: 3200px;
+}
+#hot h2{
+    border-bottom:3px solid #ff6600;
+    height: 40px;
+}
+#hot h2 span{
+    display: inline-block;
+    line-height:40px;
+    width: 120px;
+}
+#hot>ul{
+    height: 240px;
+}
+#hot>ul li{
+     height: 240px;
+     width: 150px;
+     padding: 10px 30px;
+     /* background: #f2f2f2; */
+     float: left;
+     margin:0 15px 50px 15px;
+}
+.zheIcon{
+    margin:0 0 0 -30px;
+}
+#hot>ul li p,#hot .left li p{
+    line-height: 24px;
+}
+#hot .left{
+    width: 316px;
+    border: 1px solid #ccc;
+    /* padding: 0 10px; */
+}
+#hot .left li{
+    height: 240px;
+    width: 180px;
+    padding: 35px 30px;
+    /* background: #f2f2f2; */
+    border-bottom:2px solid #ccc;
+    margin:0 15px 15px;
+}
+#hot .left div{
+    line-height:40px;
+    background: #f4f4f4;
+}
+
+/* #hot .left li */
+/* 人气单品右边盒子 */
+#hot .right{
+    width: 860px;
+    padding: 0 10px;
+}
+#hot .right ul{
+    border-bottom:3px solid #ff6600;
+    height: 40px;
+}
+#hot .right ul li{
+    float: left;
+    line-height:40px;
+    width: 150px;
+    text-align: center;
+}
+#hot .right ul li:hover{
+    color: #ffffff;
+    background: #ff6600;
+}
+.secondMenu{
+    height: 200px;
+    color: #999999;
+    text-align: center;
+    /* width: 100%; */
+}
+/* 好评,条形图,评价榜单 */
+.secondMenu .top{
+    height: 100px;
+    padding: 35px 0;
+}
+.secondMenu .top div:first-child{
+    width: 170px;
+}
+.secondMenu .top div:first-child p{
+    font-size: 60px;
+    color: #ff6600;
+    font-weight: bold;
+}
+.secondMenu .top div:nth-child(2){
+    width: 300px;
+    line-height: 30px;
+}
+.secondMenu .top div:nth-child(2) span:first-child{
+    display: inline-block;
+    width: 70px;
+    text-align: left;
+}
+.secondMenu .top div:nth-child(2) span:last-child{
+    display: inline-block;
+    width: 150px;
+    height: 16px;
+    border: 1px solid #ccc;
+}
+.secondMenu .top div:nth-child(3){
+    width: 384px;
+    background: greenyellow;
+}
+.secondMenu .top ol{
+    width: 384px;
+}
+.secondMenu .top ol li{
+    width: 172px;
+    padding: 0 10px;
+    float: left;
+    line-height:30px ;
+}
+/* 全部评价，好评，差评 */
+.secondMenu .bottom{
+    line-height: 30px;
+    background: #f5f5f5;
+    padding: 0 20px;
+}
+.secondMenu .bottom span{
+    margin:0 36px 0 0;
+}
+#hot>.right>ol li{
+    line-height:150px;
+    border-bottom: 2px solid #ccc;
+}
+#hot>.right>ol li{
+    height:110px;
+    line-height: 20px;
+    padding: 20px 24px;
+    border-bottom: 2px solid #ccc;
+}
+#hot>.right>ol li div:first-child{
+    width: 150px;
+}
+#hot>.right>ol li div:nth-child(2){
+    width:422px;
+    padding: 0 40px;
+}
+#hot>.right>ol li div:nth-child(3){
+    width:150px;
+}
+#hot>.right>dl{
+    height: 150px;
+}
