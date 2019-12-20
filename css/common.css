@@ -63,6 +63,9 @@ a {
   background: pink;
   z-index: 99;
 }
+.show{
+  display: block;
+}
 a:hover{
   color: #ff6600;
 }
