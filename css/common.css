@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;   
+}
 /**清除浮动**/
 .clearfix:after {
   height: 0;
@@ -63,10 +66,7 @@ a {
 a:hover{
   color: #ff6600;
 }
-.big18{
-  font-size: 18px;
-  font-weight: bold;
-}
+
 /* 滑动鼠标，改变背景和字体颜色 */
 .orange {
   background: #ff6600;
@@ -78,7 +78,14 @@ a:hover{
 .greyBg{
   background: #f2f2f2;
 }
-
+/* 字体样式 */
+.big18{
+  font-size: 18px;
+  font-weight: bold;
+}
+.font21{
+  font-size: 21px;
+}
 /* 头部和导航，轮播的通用样式 */
 /* 首页的样式 */
 /* 顶部样式 */
@@ -96,6 +103,7 @@ a:hover{
 /* 导航栏 左边*/
 #nav {
   height: 84px;
+  min-width: 1200px;
 }
 #nav #logo {
   position: relative;
@@ -174,8 +182,11 @@ a:hover{
 }
 /* 导航栏右边 */
 /* 导航栏input,购物车，我的订单 */
+#navRight{
+  height: 80px;
+}
 #navRight > div {
-  margin: 5px 0 0 0;
+  padding: 4px 0 0 0;
   position: relative;
 }
 #navRight input {
@@ -192,7 +203,7 @@ a:hover{
   background: #ff6600;
   position: absolute;
   right: 237px;
-  top: 0;
+  top: 4px;
   text-align: center;
   display: inline-block;
   color: #ffffff;
