@@ -147,25 +147,26 @@ button{
   position: relative;
   background: #f3f3f3;
   height: 416px;
-  padding: 7px 0;
   top:6px;
 }
-#logo ul li {
+#logo ul>li {
   height: 32px;
-  /* width: 180px; */
   text-align: left;
-  padding: 0 0 0 20px;
 }
-#logo ul li .menu {
-  line-height: 36px;
-  width: 180px;
+#logo ul>li .menu {
+  padding: 0 0 0 20px;
+  line-height: 32px;
+  width: 178px;
   background: #f3f3f3;
   position: absolute;
   z-index: 99;
   border-right: 1px solid transparent;
 }
-#logo ul li:hover .menu {
-  background: #ccc;
+#logo ul>li:hover .menu{
+  background: #ffffff;
+  width: 179px;
+  height: 30px;
+  border:1px solid #ff6600;
   border-right: none;
 }
 /* 二级导航栏的设置 */
@@ -175,11 +176,13 @@ button{
   color: #000000;
   padding: 0 36px;
   top: 0;
-  border: 1px solid orange;
+  background: pink;
+  border: 1px solid #ff6600;
   width: 400px;
   height: 490px;
-  display: none;
+  /* display: none; */
   background: #ffffff;
+  z-index: 88;
 }
 #logo ul li .subMenu p {
   line-height: 36px;
@@ -323,7 +326,7 @@ button{
   border: none;
 }
 .hotBook li:first-child h2 {
-  margin: -40px 0 0 0;
+  margin: -40px 0 0 50px;
 }
 .hotBook li:first-child {
   margin: 0 0 0 5px;
@@ -347,6 +350,9 @@ button{
   border-top: 2px solid #ccc;
 }
 /* 广告 */
+.ad {
+  margin:20px 0 0 76px;
+}
 .ad img{
   height: 100px;
   width: 1200px;

@@ -77,12 +77,9 @@
 #orderFormation .payWay div p{
     margin: 0 16px 0 0;
 }
-<<<<<<< HEAD
-=======
 #orderFormation>p span a{
     margin:0 0 0 50px;
 }
->>>>>>> order
 #orderFormation .deliver .left{
     height: 270px;
     width: 444px;
@@ -137,6 +134,10 @@
 }
 #orderSure .inputAdress p{
     margin:20px 30px 0 0;
+  
+}
+#orderSure .inputAdress p input{
+    height: 0px;
 }
 #orderSure .inputAdress p:first-child input{
     width: 340px;

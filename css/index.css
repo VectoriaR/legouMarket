@@ -6,11 +6,11 @@
   color: #ff6600;
   line-height: 40px;
   text-indent: 1em;
-  border-bottom: 2px solid #ff6600;
+  border-bottom: 4px solid #ff6600;
 }
 #recommend ul li {
   height: 240px;
-  width: 182px;
+  width: 184px;
   float: left;
   padding: 3px 7px;
   border: 1px solid #ff6600;
@@ -140,6 +140,9 @@
   border: 1px solid #ccc;
   float: left;
   padding: 10px 4px;
+}
+#book .content ol li img{
+  margin:12px 0 12px 0;
 }
 #book .content ol li p {
   line-height: 22px;

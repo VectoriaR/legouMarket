@@ -23,14 +23,15 @@ $("#demo3").slideBox({
 // 获取book距离窗口的距离
 
 //获取楼层距离相对顶端下移动的距离
+console.log($('#floorLi').offset().top);
 $(window).scroll(function(){
-    console.log($('html,body').scrollTop()); 
-    let floorScroll=$('html,document').scrollTop();
-    floorShow=$('#book').offset().top-30+4+'px';
-    if(floorShow<=floorScroll){
-        $('floorList').show();
+    // console.log($('html,body').scrollTop())
+    let scroll=$('html,body').scrollTop(); 
+    if(scroll>=500){
+        $('#floorLi').show();
+        $('#floorLi').offset().top-20+'px';
+    }else{
+        $('#floorLi').hide();
     }
 })
-
-console.log($('#book').offset().top);
 // 2.点击相应的位置就滚动到相应的楼层
