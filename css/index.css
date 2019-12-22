@@ -159,6 +159,10 @@
 .dressSportBaby .contentTop div:first-child {
   width: 240px;
 }
+.dressSportBaby .contentTop div:first-child img{
+  height: 348px;
+  width: 237px;
+}
 .dressSportBaby dl dt {
   line-height: 40px;
   float: left;
@@ -191,19 +195,35 @@
 }
 .dressSportBaby .contentTop ol li a {
   display: block;
-  margin: 0 0 0 5px;
+  margin: 5px 0 0 5px;
 }
 .dressSportBaby .contentTop ol li img {
   width: 174px;
 }
+.dressSportBaby .contentTop ol .three .quan{
+  border-radius: 12px;
+  background: #fd2621;
+  height: 20px;
+  width: 105px;
+  text-align: center;
+  color: #ffffff;
+}
 .dressSportBaby .contentTop ol .three img {
-  height: 340px;
+  height: 262px;
 }
 .dressSportBaby .contentTop ol .lastThree img {
-  margin: 19px 0 0 0;
+  margin: 12px 0 0 0;
+  height: 102px;
+  width: 174px;
 }
 .contentBottom img {
   width: 116px;
+}
+/* 童装 */
+#baby  .contentTop ol li.lastThree{
+  background: url(../images/girlbottom.jpg) no-repeat;
+  height: 169px;
+  width: 174px;
 }
 /* 家居日用 */
 /* 第一个盒子 */
@@ -233,6 +253,9 @@
   float: left;
   padding: 20px 30px;
   margin: 0 28px 0 0;
+}
+#others ol li:hover{
+  background: #f2f2f2;
 }
 #others ol img {
   height: 152px;
