@@ -82,7 +82,10 @@ a:hover{
   background: #f2f2f2;
 }
 /* 字体样式 */
-.big18{
+.fontw{
+  font-weight: bold;
+}
+.font18{
   font-size: 18px;
   font-weight: bold;
 }
