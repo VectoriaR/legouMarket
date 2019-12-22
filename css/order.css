@@ -120,19 +120,12 @@
 }
 #orderSure .fapiao span{
     margin:0 24px 0 0;
-<<<<<<< HEAD
 
-=======
->>>>>>> order
 }
 #orderSure .goodstiao{
     height: 20px;
     line-height: 58px;
     border: 1px solid #ccc;
-<<<<<<< HEAD
-    color:#999999;
-=======
->>>>>>> order
     padding: 20px;
     margin:20px  0 0 0;
 }
@@ -145,12 +138,9 @@
 #orderSure .inputAdress p{
     margin:20px 30px 0 0;
 }
-<<<<<<< HEAD
-=======
 #orderSure .inputAdress p:first-child input{
     width: 340px;
 }
->>>>>>> order
 #orderSure .inputAdress button{
     height: 60px;
     border: none;

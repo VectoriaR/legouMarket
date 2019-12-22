@@ -96,17 +96,15 @@ a:hover{
 .font21{
   font-size: 21px;
 }
-<<<<<<< HEAD
 /* 这里用input会导致 checkbox的大小变化 */
 input[type='text']{   
   padding: 10px;
 }
 button{
   background: transparent;
-=======
+}
 .fontw{
   font-weight: bold;
->>>>>>> order
 }
 /* 头部和导航，轮播的通用样式 */
 /* 首页的样式 */
