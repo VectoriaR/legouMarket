@@ -176,7 +176,7 @@ button{
   border: 1px solid #ff6600;
   width: 400px;
   height: 490px;
-  /* display: none; */
+  display: none;
   background: #ffffff;
   z-index: 88;
 }
