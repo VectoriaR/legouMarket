@@ -53,6 +53,9 @@ a {
 .red {
   color: red;
 }
+.c{
+  color: #ccc;
+}
 /**蓝色字体**/
 .small {
   font-size: 12px;
@@ -70,6 +73,9 @@ a:hover{
 .orange {
   background: #ff6600;
   color: #ffffff;
+}
+.colorOrange{
+color: #ff6600;
 }
 .greyColor{
   color:#c0c0c0;
