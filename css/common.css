@@ -1,5 +1,6 @@
 body{
   overflow-x: hidden;   
+  color: #4e4e4e;
 }
 /**清除浮动**/
 .clearfix:after {
@@ -91,6 +92,13 @@ a:hover{
 }
 .font21{
   font-size: 21px;
+}
+/* 这里用input会导致 checkbox的大小变化 */
+input[type='text']{   
+  padding: 10px;
+}
+button{
+  background: transparent;
 }
 /* 头部和导航，轮播的通用样式 */
 /* 首页的样式 */
@@ -332,8 +340,14 @@ a:hover{
   display: inline-block;
   border-top: 2px solid #ccc;
 }
+/* 广告 */
+.ad img{
+  height: 100px;
+  width: 1200px;
+}
 /* 底部 */
 #footer {
+  position: relative;
   height: 420px;
   border-top: 2px solid #ff6600;
   text-align: center;
@@ -354,7 +368,19 @@ a:hover{
   width: 150px;
   line-height: 30px;
 }
+#footer>img{
+  position: absolute;
+  right: 124px;
+  top: 35%;
+}
 #footer p {
   line-height: 40px;
+}
+#footer p span{
+  padding: 0 20px;
+  border-right:1px solid #666;
+}
+#footer p span:last-child{
+  border:none;
 }
 

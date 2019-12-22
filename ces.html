@@ -6,24 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-        .subMenu{
-            display: none;
+        /* div{
+            height: 16px;
+            width: 16px;
+            border: 1px solid #ccc;
+            position: relative;
+        } */
+        .check{
+            height: 18px;
+            width: 18px;
+            background: pink;
         }
-        .show{
-            display: block;
+        input{
+            border: 1px solid #ccc;
+            background: transparent;
+            height: 18px;
+            width: 18px;
+            outline: none;
+            -webkit-appearance:none;
+            margin:0 0 0 0;
+        }
+        input:checked{
+            background: #ff6600;
         }
     </style>
 </head>
 <body>
-    <ol>
-        <li class="fl font21">扫码登录</li>
-        <li class="fl font21">账户登录</li>
-    </ol>
-    <div class="subMenu show" >
-        111111111
-    </div>
-    <div class="subMenu " >
-        222222
-    </div>
+    <p class="check">
+        <input type="checkbox">
+    </p>
 </body>
 </html>
