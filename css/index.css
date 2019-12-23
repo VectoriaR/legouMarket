@@ -64,39 +64,54 @@
   position: fixed;
   top: 130px;
   left: 37px;
-  display: none;
+  z-index: 89;
 }
-#floorLi li{
+#floorLi a{
+  padding: 0 0 0 40px;
+  display: block;
   height: 40px;
   width: 40px;
-  position: relative;
+  white-space: nowrap;
+  line-height: 40px;
+  overflow: hidden;
   box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
 }
-#floorLi li:first-child{
+#floorLi a:first-child{
   background: url(../images/floor.png) no-repeat 0px -40px;
 }
-#floorLi li:nth-child(2){
+#floorLi a:nth-child(2){
   background: url(../images/floor.png) no-repeat 0px -80px;
 }
-#floorLi li:nth-child(3){
+#floorLi a:nth-child(3){
   background: url(../images/floor.png) no-repeat 0px -120px;
 }
-#floorLi li:nth-child(4){
+#floorLi a:nth-child(4){
   background: url(../images/floor.png) no-repeat 0px -160px;
 }
-#floorLi li:nth-child(5){
+#floorLi a:nth-child(5){
   background: url(../images/floor.png) no-repeat 0px -200px;
 }
-#floorLi li p{
-  line-height: 40px;
-  width:40px;
-  position: absolute;
-  top:0;
-  background: #93d56f;
-  right:-40px;
-  text-align: center;
-  color: #ffffff;
-  display: none;
+#floorLi a:first-child:hover{
+  background:#93d56f  url(../images/floor.png) no-repeat -40px -40px;
+  width: 80px;
+}
+#floorLi a:nth-child(2):hover{
+  background:#93d56f  url(../images/floor.png) no-repeat -40px -80px;
+  width: 80px;
+}
+#floorLi a:nth-child(3):hover{
+  background: #93d56f url(../images/floor.png) no-repeat -40px  -120px;
+  width: 80px;
+}
+#floorLi a:nth-child(4):hover{
+  background: #93d56f url(../images/floor.png) no-repeat -40px -160px;
+  width: 80px;
+}
+#floorLi a:nth-child(5):hover{
+  background: #93d56f url(../images/floor.png) no-repeat -40px -200px;
+  width: 80px;
 }
 /* 图书，电子书 */
 #book {
@@ -123,6 +138,7 @@
   /* background: #ccc; */
 }
 /* 小轮播图 */
+
 #book .content ol > div {
   height: 218px;
   width: 328px;
@@ -156,10 +172,10 @@
   height: 100%;
 }
 /* 第一个盒子 */
-.dressSportBaby .contentTop div:first-child {
+.dressSportBaby .contentTop>div:first-child {
   width: 240px;
 }
-.dressSportBaby .contentTop div:first-child img{
+.dressSportBaby .contentTop>div:first-child img{
   height: 348px;
   width: 237px;
 }
@@ -174,17 +190,16 @@
   height: 426px;
 }
 /* 第二个盒子 */
-.dressSportBaby .contentTop div:nth-child(2) {
+ .contentTop .secondBox {
   width: 426px;
 }
-.dressSportBaby .contentTop div:nth-child(2) img {
+ .contentTop .secondBox img{
   width: 426px;
 }
-.dressSportBaby .contentTop div:nth-child(2) .swiper {
+.secondBox  .qixi{
+  height: 168px;
+  width: 426px;
   border: 1px solid #ccc;
-}
-.dressSportBaby .contentTop div:nth-child(2) .swiper img {
-  height: 340px;
 }
 .dressSportBaby .contentTop ol {
   width: 530px;
