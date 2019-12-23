@@ -1,6 +1,21 @@
+#nav #logo{
+    height: 110px;
+}
+.green93{
+    background: #93d56f;
+    line-height: 30px;
+    color: #ffffff;
+}
+#logo ul{
+    display: none;
+}
+ul li p{
+    margin: 5px 0 0 0;
+}
 /* 内容标题通用样式 */
 .content{
     margin:10px 0 0 76px;
+    border-bottom: 1px solid #ccc;
 }
 .content>h2{
     line-height: 50px;
@@ -21,6 +36,67 @@
      /* background: #f2f2f2; */
      float: left;
      margin:0 15px;
+}
+#swiper {
+    margin: 0 0 0 76px;
+    width: 1000px;
+    float: left;
+}
+#swiperRight{
+    width: 200px;
+    float: left;
+}
+#swiperRight ul li:first-child{
+    padding: 20px 5px;
+}
+#swiperRight ul li{
+    border-bottom: 1px solid #ccc;
+    height:50px;
+    overflow: hidden;
+    position: relative;
+}
+#swiperRight ul li .img{
+    width: 84px;
+}
+#swiperRight ul li img{
+    width: 84px;
+}
+#swiperRight ul li .text{
+    margin: -80px 0 0 88px;
+    width: 114px;
+    float: left;
+}
+#swiperRight ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    display: inline-block;
+    background: #b2b2b2;
+    color: #ffffff;
+}
+#swiperRight ul li .orange{
+    background: #ff6600;
+}
+#swiperRight ul li:first-child img{
+    height: 100px;
+    width: 84px;
+}
+#swiperRight ul li:first-child .img{
+    height: 100px;
+    width: 80px;
+    float: left;
+}
+#swiperRight ul li:first-child .text{
+    width: 100px;
+    margin: 0 0 0 10px;
+}
+/* 乐购书城 */
+#book .start i{
+    font-size:16px;
+    color: #fcee00;
 }
 /* 新书上架 */
 #newBook{
@@ -65,11 +141,17 @@
     right: 0;
     top:10px;
 }
+#onlyProvide>ul>li:hover{
+    background: #ff6600;
+}
 #onlyProvide>ul li{
     width: 100px;
     float: left;
     line-height:40px;
     text-align: center;
+}
+#onlyProvide>div ul li{
+    width: 110px;
 }
 /* 猜你喜欢 */
 #guessULike{
@@ -83,5 +165,24 @@
     text-align: center;
     line-height: 40px;
 }
+#guessULike>div ul li{
+    width: 110px;
+}
+#humen{
+    height: 120px;
+    padding: 40px 0 0 0;
+}
+#humen li{
+    width: 200px;
+    float: left;
+}
+#humen .left .quan{
+    border-radius: 12px;
+    background: #fd2621;
+    height: 20px;
+    width: 105px;
+    text-align: center;
+    color: #ffffff;
+} 
 
 

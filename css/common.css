@@ -53,6 +53,9 @@ a {
 .red {
   color: red;
 }
+.c{
+  color: #ccc;
+}
 /**蓝色字体**/
 .small {
   font-size: 12px;
@@ -71,6 +74,9 @@ a:hover{
   background: #ff6600;
   color: #ffffff;
 }
+.colorOrange{
+color: #ff6600;
+}
 .greyColor{
   color:#c0c0c0;
 }
@@ -83,10 +89,12 @@ a:hover{
 }
 .font18{
   font-size: 18px;
-  font-weight: bold;
 }
 .font21{
   font-size: 21px;
+}
+.font28{
+  font-size: 28px;
 }
 .icon-pingjia:before{
   font-size: 21px;

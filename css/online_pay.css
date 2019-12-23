@@ -1,0 +1,77 @@
+#nav #logo{
+    background: url(../images/logo2.jpg) no-repeat;
+}
+#nav #logo p{
+    margin:35px 8px 0 0;
+}
+#content p{
+    line-height: 40px;
+}
+#content>p a{
+    color: #1080e9;
+}
+#content div{
+    line-height: 60px;
+}
+#content .greyc{
+    background: #f2f2f2;
+}
+#content .greyc p{
+    float: left;
+    line-height: 10px;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    margin: 20px 0 0 60px;
+}
+#content .addCard{
+    background: #6666;
+    color: #ffffff;
+}
+#content .legouPay span:first-child{
+    line-height: 40px;
+    width: 150px;
+    text-align: center;
+    display: inline-block;
+}
+#content button{
+    line-height: 60px;
+    width: 230px;
+    border: none;
+    outline: none;
+}
+#content .others span:first-child{
+    display: inline-block;
+    line-height: 40px;
+    width: 150px;
+    background: #76b0f3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+}
+#content .otherPay{
+    line-height: 60px;
+    padding:0 60px;
+}
+#content .otherPay a{
+    display: inline-block;
+    line-height: 20px;
+    padding: 0 20px ;
+    text-align: center;
+    border-right: 1px solid #ccc;
+}
+#content .otherPay a:last-child{
+    border: none;
+}
+#content .price{
+    margin-right: 12px;
+}
+#content .greyc .chekedRight{
+    border: 1px solid #ff6600;
+    position: relative;
+} 
+.icon-zhengfangxinggouxuankuang:before{
+    position: absolute;
+    right: -3px;
+    bottom: 0;
+    color: #ff6600;
+}

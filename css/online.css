@@ -1,0 +1,173 @@
+
+#navRight {
+    height: 44px;
+    padding:30px;
+}
+#navRight p{
+    float: left;
+}
+#navRight p.a{
+    margin:0 0 0 60px;
+    line-height: 40px;
+    width: 90px;
+    font-size: 18px;
+    text-align: center;
+}
+#navRight .a:hover a{
+    background: #ff6600;
+    color: #ffffff;
+}
+#content>.left{
+    width: 270px;
+    background: #f2f2f2;
+    margin:0 20px 0 0;
+    padding: 0 20px;
+}
+#content>.left>div{
+    margin: 0 0 20px 0;
+}
+#content>.left p{
+    line-height: 50px;
+}
+#content>.right{
+    width: 870px;
+}
+#content>.left .icon i{
+    height: 34px;
+    width: 34px;
+    background: pink;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 28px;
+    text-align: center;
+}
+#content>.right>div a{
+    margin: 0 0 0 50px;
+}
+/* 购物车详细信息 */
+#main{
+    width: 870px;
+}
+#main > h3{
+    line-height:50px;
+    color: #ff6600;
+    }
+    #main button{
+        border: none;
+        outline: none;
+    }
+    /* #main .check{
+        height: 18px;
+        width: 18px;
+        float: left;
+        background: pink; 
+    } */
+    #main  input{
+        border: 1px solid #ccc;
+        background: transparent;
+        height: 18px;
+        width: 18px;
+        outline: none;
+        -webkit-appearance:none;
+        margin:0 0 0 0;
+    }
+    #main  input:checked{
+        background: #ff6600;
+    }
+    #goods{
+        border-top: 4px solid #ccc;
+    }
+    #goods>div>div,.th>div{
+        float: left;
+    }
+    #goods>div{
+        height: 134px;
+        padding: 38px 0;
+        border-bottom: 2px solid #ccc;
+        position: relative;
+    }
+    #goods .del{
+        border: none;
+        outline: none;
+        color: #ff6600;
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+    }
+     .onetd{
+        width: 220px;
+        padding: 0 20px;
+    }
+     .onetd div{
+        display: inline-block;
+        margin: 0 0 0 30px;
+        text-align: center;
+        height: 160px;
+        width: 160px;
+        padding: 5px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+     .twotd{
+        width: 320px;
+    }
+     .threetd{
+        width:110px;
+    }
+     .fourtd{
+        width:60px;
+        text-align: center;
+    }
+    .fourtd div{
+        height: 24px;
+        width: 120px;
+        border:1px solid #ccc;
+    }
+    .fourtd div p,.fourtd div button{
+        height: 100%;
+        float: left;
+    }
+    .fourtd div button{
+        width: 22px;
+    }
+    .fourtd div button:hover{
+        border:1px solid #ff6600;  
+    }
+    .fourtd p{
+        width: 74px;
+        line-height:24px;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+    }
+    #main div.th{
+        margin:0 0 20px 0;
+        line-height: 60px;
+        height: 60px;
+        padding: 0;
+    }
+    /* 结算条 */
+    #main div.calculate{
+        height: 60px;
+        padding: 0 0 0 20px;
+        border: 1px solid #ccc;
+        margin: 36px 0;
+    }
+    div.calculate .del{
+        margin:0 0 0 30px;
+    }
+    #main .calculate .right{
+        float: right;
+    }
+    #main .calculate .right p{
+        font-weight: bold;
+        margin:0 60px;
+    }
+    .calculate button.calBtn{
+        height: 62px;
+        width: 126px;
+        background: #ff6600;
+        color: #ffffff;
+        font-size: 24px;
+        border-radius: 2px;
+        margin: -1px 0 0 0;
+    }
