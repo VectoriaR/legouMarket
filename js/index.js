@@ -18,20 +18,22 @@ $("#demo3").slideBox({
 
     clickBarRadius: 10
   });
+  var swiper = new Swiper('.swiper-container', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
 /* 楼层的滚动 */
-// 1.找到滚动到图书的距离，出现楼层条
-// 获取book距离窗口的距离
-
-//获取楼层距离相对顶端下移动的距离
-console.log($('#floorLi').offset().top);
-$(window).scroll(function(){
-    // console.log($('html,body').scrollTop())
-    let scroll=$('html,body').scrollTop(); 
-    if(scroll>=500){
-        $('#floorLi').show();
-        $('#floorLi').offset().top-20+'px';
-    }else{
-        $('#floorLi').hide();
-    }
+$('#floorLi a').click(function(){
+    //获取索引
+    let index=$(this).index();
+    //获取对应楼层盒子距离窗口的偏移,注意offset()有两个属性；left,top
+    let fTop=$('.floor').eq(index).offset().top;
+    //设置滚动的距离,动态animated()
+    $('html,body').animate({scrollTop:fTop},500)
 })
-// 2.点击相应的位置就滚动到相应的楼层
+// 置顶
+$('#toTop').on('click',function(){
+    $('html,body').animate({scrollTop:0},500);
+}) 
