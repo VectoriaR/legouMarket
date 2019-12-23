@@ -1,3 +1,9 @@
+#nav #logo{
+    background: url(../images/logo2.jpg) no-repeat;
+}
+#nav #logo p{
+    margin:35px 8px 0 0;
+}
 #content p{
     line-height: 40px;
 }
@@ -55,4 +61,17 @@
 }
 #content .otherPay a:last-child{
     border: none;
+}
+#content .price{
+    margin-right: 12px;
+}
+#content .greyc .chekedRight{
+    border: 1px solid #ff6600;
+    position: relative;
+} 
+.icon-zhengfangxinggouxuankuang:before{
+    position: absolute;
+    right: -3px;
+    bottom: 0;
+    color: #ff6600;
 }
