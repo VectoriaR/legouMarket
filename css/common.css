@@ -424,6 +424,13 @@ opacity: 0.5;
   bottom: 0;
   right: 20px;
 }
+/* 盒子边框和小红勾 */
+.icon-zhengfangxinggouxuankuang:before {
+  position: absolute;
+  bottom: 0;
+  right: -3px;
+  color: #ff6600;
+}
 /* 底部 */
 #footer {
   position: relative;
