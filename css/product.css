@@ -143,6 +143,7 @@ ul li p{
 }
 #onlyProvide>ul>li:hover{
     background: #ff6600;
+    color: #ffffff;
 }
 #onlyProvide>ul li{
     width: 100px;
