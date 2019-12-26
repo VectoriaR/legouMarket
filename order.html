@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>订单</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/order.css" />
     <link rel="stylesheet" href="./fonts/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="./css/magnifier.css">
     <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -40,23 +41,23 @@
             <p>收货人信息<a href="#" class="fr">新增收货地址</a></p>
             <div class="clearfix receiver">
                 <div class="clearfix">
-                    <p class="checkedRight">运送&nbsp;&nbsp;&nbsp;四川</p>
+                    <p class="chekedRight checked">运送&nbsp;&nbsp;&nbsp;四川<i class="iconfont icon-zhengfangxinggouxuankuang "></i></p>
                     <p class="adress"><span>成都市</span><span>高新区</span><span>天府新谷11号楼1101</span></p>
                     <p class="defaultTag">默认收货地址</p>
                 </div>
                 <p>更多收货地址：</p>
                 <div>
-                    <p class="checkedRight">运送&nbsp;&nbsp;&nbsp;四川</p>
+                    <p class="chekedRight checked">运送&nbsp;&nbsp;&nbsp;四川<i class="iconfont icon-zhengfangxinggouxuankuang "></i></p>
                     <p class="adress"><span>成都市</span><span>高新区</span><span>天府新谷11号楼1101</span></p>
                 </div>
             </div>
             <p>支付方式 </p>
             <div class="payWay">
                 <div>
-                    <p class="checkedRight">货到付款</p>
-                    <p class="checkedRight">微信支付</p>
-                    <p class="checkedRight">信用卡</p>
-                    <p class="checkedRight">银行卡</p>
+                    <p class="chekedRight checked">货到付款<i class="iconfont icon-zhengfangxinggouxuankuang "></i></p>
+                    <p class="checked">微信支付<i class="iconfont icon-zhengfangxinggouxuankuang "></i></p>
+                    <p class="checked">信用卡<i class="iconfont icon-zhengfangxinggouxuankuang "></i></p>
+                    <p class="checked">银行卡<i class="iconfont icon-zhengfangxinggouxuankuang "></i></p>
                     <p><span>更多>></span></p>
                 </div>
             </div>
@@ -92,9 +93,26 @@
             <div class="clearfix inputAdress">
                 <p class="fl ">配送至&nbsp;&nbsp;&nbsp;<input type="text"></p>
                 <p class="fl ">收货人&nbsp;&nbsp;&nbsp;<input type="text"></p>
-                <button class="fr orange">提交订单</button>
+                <button class="fr orange submit">提交订单</button>
             </div>
         </div> 
+    </div>
+    <!-- 蒙版 -->
+    <div class="prompt">
+        <p>
+            <span>确认付款</span>
+            <span class="fr X font28 ">X</span>
+        </p>
+        <h2>
+            <i class="iconfont icon-gantanhao"></i>
+            是否去提交订单？
+        </h2>
+        <div>
+            <button class="no">取消</button>
+            <button class="yes">确认</button>
+        </div>
+    </div>
+    <div class="mask">
     </div>
     <!-- 广告 -->
     <div class=" ad container">
@@ -157,5 +175,24 @@
         </p>
         <p>Copyright（C）&nbsp;乐购网&nbsp;2004-2016， All Rights Reseverd</p>
     </div>
+    <script type="text/javascript" src="./js/magnifier.js"></script>
+    <script>
+        /*点击id为"display"的button显示弹出层*/
+        $(".submit").click(function() {
+            $(".mask").fadeIn();
+            $(".prompt").fadeIn();
+        });
+        /*点击id为"close"的button关闭弹出层*/
+        $(".no,.X").click(function() {
+            $(".mask").fadeOut();
+            $(".prompt").fadeOut();
+        });
+        $('.checked').on('click',function(){
+            $(this).addClass('chekedRight');
+            $(this).siblings().find('i').hide();
+            $(this).find('i').show();
+            $(this).siblings().removeClass('chekedRight');
+        })
+    </script>
 </body>
 </html>

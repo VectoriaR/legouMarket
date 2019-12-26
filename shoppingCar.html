@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>购物车</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/shoppingCar.css" />
@@ -16,7 +16,7 @@
     <div id="top">
       <div class="container">
         <span class="fl">legouchina.cn</span>
-        欢迎光临<a href="#">乐购</a>,请&nbsp;&nbsp;<a href="#">登录</a>\<a href="#"
+        欢迎光临<a href="index.html">乐购</a>,请&nbsp;&nbsp;<a href="login.html">登录</a>\<a href="registe.html"
           >注册</a
         >
       </div>
@@ -48,7 +48,8 @@
         <div class="greyBg th">
             <div class="onetd">
                <input type="checkbox" /> 
-              &nbsp;&nbsp;&nbsp;全选</div>
+              &nbsp;&nbsp;&nbsp;全选
+            </div>
             <div class="twotd">商品</div>
             <div class="threetd">单价</div>
             <div class="fourtd">数量</div>
@@ -216,4 +217,9 @@
       <p>Copyright（C）&nbsp;乐购网&nbsp;2004-2016， All Rights Reseverd</p>
     </div>
   </body>
+  <script>
+  $('.calBtn').on('click',function(){
+    window.location.href="online.html";
+  })
+  </script>
 </html>

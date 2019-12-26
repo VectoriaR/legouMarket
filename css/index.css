@@ -171,6 +171,10 @@
 .dressSportBaby {
   height: 100%;
 }
+.swiperlitlefu img{
+  width: 430px;
+  height: 342px;
+}
 /* 第一个盒子 */
 .dressSportBaby .contentTop>div:first-child {
   width: 240px;

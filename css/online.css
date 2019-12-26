@@ -171,3 +171,9 @@
         border-radius: 2px;
         margin: -1px 0 0 0;
     }
+    .icon-biaoqian:before {
+        font-size: 18px;
+    }
+    .icon-erji:before {
+        font-size: 21px;
+    }

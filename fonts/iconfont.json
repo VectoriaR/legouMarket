@@ -83,6 +83,13 @@
       "unicode_decimal": 58884
     },
     {
+      "icon_id": "2253377",
+      "name": "联系人",
+      "font_class": "lianxiren",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
       "icon_id": "2258725",
       "name": "上箭头",
       "font_class": "arrow-up",
@@ -137,6 +144,13 @@
       "font_class": "gantanhao",
       "unicode": "e608",
       "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "7959067",
+      "name": "锁",
+      "font_class": "suo",
+      "unicode": "e614",
+      "unicode_decimal": 58900
     },
     {
       "icon_id": "8348359",

@@ -46,14 +46,15 @@ ul li p{
     width: 200px;
     float: left;
 }
-#swiperRight ul li:first-child{
-    padding: 20px 5px;
-}
 #swiperRight ul li{
     border-bottom: 1px solid #ccc;
     height:50px;
     overflow: hidden;
     position: relative;
+}
+#swiperRight ul .on{
+    padding: 20px 5px;
+    height: 100px;
 }
 #swiperRight ul li .img{
     width: 84px;
@@ -61,6 +62,7 @@ ul li p{
 #swiperRight ul li img{
     width: 84px;
 }
+
 #swiperRight ul li .text{
     margin: -80px 0 0 88px;
     width: 114px;

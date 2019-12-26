@@ -58,6 +58,13 @@
     width: 120px;
     border: 1px solid #ccc;
 }
+.icon-zhengfangxinggouxuankuang:before {
+    bottom: -10px;
+    right: -4px;
+}
+#content p.chekedRight {
+    width: 120px;
+}
 .adress{
     width: 450px;
 }
@@ -72,8 +79,17 @@
 #orderFormation .payWay{
     height: 100px;
 }
-#orderFormation .payWay div p{
+#orderFormation .payWay div p {
     margin: 0 16px 0 0;
+    border: 1px solid #ccc;
+    width: 120px;
+}
+#orderFormation .payWay div p.chekedRight{
+    border: 1px solid #ff6600;
+    width: 120px;
+}
+#orderFormation .payWay div p:last-child{
+    border: none;
 }
 #orderFormation>p span a{
     margin:0 0 0 50px;

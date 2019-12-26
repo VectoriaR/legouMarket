@@ -42,15 +42,12 @@ body,#navRight>p a{
     width: 110px;
     padding: 0 10px;
 }
-#registe div .inputBox input{
+#registe div input{
     height: 40px;
     width: 266px;
     border:none;
     outline: none;
     padding: 0 2px;
-}
-#registe .code .inputBox,.phoneCode .inputBox{
-    width: 140px;
 }
 #registe .code div:last-child{
     width: 124px;
@@ -78,6 +75,13 @@ body,#navRight>p a{
 #registe #sub button{
     height: 100%;
     width: 400px;
+}
+#registe .yanzhengCode{
+    width: 142px;
+}
+#registe .code img{
+    width: 124px;
+
 }
 #footer{
     height: 112px;
